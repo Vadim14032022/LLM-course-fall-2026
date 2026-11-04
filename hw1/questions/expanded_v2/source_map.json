@@ -1,0 +1,1197 @@
+{
+  "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+  "questions": [
+    {
+      "split": "dev",
+      "id": "qa_148d6efd8955",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p047_b001": "a316468b54382f3c3b0f63e9e50355d2e290b17a27b2e3d3afc2819092b8c9c3",
+        "p049_b001": "525473d142f2b3e7a5455f67b2df0b5c43fd6f440e69834f7be6cfcd9c026744"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_17cb5cef084b",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p073_b002": "3ed7e6121513f8eb935d473cea71bd3af19aea72f3b3902f07cbb6b5cab85b01"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_2619f5d4fdff",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p076_b002": "f365b64cb4aeecb0e4f21226a632a765b5bee6b52b6f193af24316ae9d96d485"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_28b64bc4bde7",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "evidence_sets": [
+        [
+          "p042_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p042_b001": "bc3fcde084a792ae0a7798f030bc961ed8ac94b3a364608bfa09b25c534c74c8"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_453ce47900ac",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f",
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_47b294afd93d",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p076_b002": "f365b64cb4aeecb0e4f21226a632a765b5bee6b52b6f193af24316ae9d96d485"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_547fe806bc46",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "evidence_sets": [
+        [
+          "p050_b001",
+          "p051_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p050_b001": "8d74e884e62fcbd0232a02ced78fa7471e35825cf0e205e579d32ec67530513c",
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_5564ebe2869f",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f",
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e",
+        "p054_b001": "b536154790a8a358fac2b0c5247e9a2b91a37cd93a3a8da242b2b2d17c4b79f5"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_59d1540bdfc1",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "evidence_sets": [
+        [
+          "p050_b001",
+          "p051_b001",
+          "p020_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p050_b001": "8d74e884e62fcbd0232a02ced78fa7471e35825cf0e205e579d32ec67530513c",
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f",
+        "p020_b001": "625084e4c833ea974663f7da41653bd6e4f163d2ebb5a3afc8e418c6601a8c55"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_5c783f91b906",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "evidence_sets": [
+        [
+          "p041_b001",
+          "p064_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p041_b001": "9fa59479bf60097c29c59a6521f9802224d5da510e19b6c164c1e66e9d4c1ac2",
+        "p064_b001": "e47d0b5d1c2c48a539c140e02fa30061c067c7e36ab339dfd0fe61f94c02d489"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_63a0a5c78a89",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p076_b002": "f365b64cb4aeecb0e4f21226a632a765b5bee6b52b6f193af24316ae9d96d485"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_69528736dc48",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p077_b001": "a1a520d3a1a395cdfe53c1568d70c2ad45a14096ba4fc86510c3b4ec6e41259b"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_6acacdae1223",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "evidence_sets": [
+        [
+          "p050_b001",
+          "p051_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p050_b001": "8d74e884e62fcbd0232a02ced78fa7471e35825cf0e205e579d32ec67530513c",
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_7048e95ab12a",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001",
+          "p036_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p047_b001": "a316468b54382f3c3b0f63e9e50355d2e290b17a27b2e3d3afc2819092b8c9c3",
+        "p049_b001": "525473d142f2b3e7a5455f67b2df0b5c43fd6f440e69834f7be6cfcd9c026744",
+        "p036_b001": "bd6a014f9bb5d9c627c7408af800cac00eeb588952d9a075245de9c374c6515e"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_7272aea180e4",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p074_b001": "8bbf1f223e1d25c7c5dd69bcc14ffea5f72ea32f154d07d307f147d004864946"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_7b0ac4172e97",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "evidence_sets": [
+        [
+          "p041_b001",
+          "p044_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p041_b001": "9fa59479bf60097c29c59a6521f9802224d5da510e19b6c164c1e66e9d4c1ac2",
+        "p044_b001": "cfa0df6d3e7744beeb03030ee3bb63102ca2763ccf9238230a9c4a302f674f77"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_7bd4bb76c0be",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "evidence_sets": [
+        [
+          "p050_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p050_b001": "8d74e884e62fcbd0232a02ced78fa7471e35825cf0e205e579d32ec67530513c"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_864b7dd5267b",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "evidence_sets": [
+        [
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e",
+        "p054_b001": "b536154790a8a358fac2b0c5247e9a2b91a37cd93a3a8da242b2b2d17c4b79f5"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_890f08607fe5",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "evidence_sets": [
+        [
+          "p054_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p054_b001": "b536154790a8a358fac2b0c5247e9a2b91a37cd93a3a8da242b2b2d17c4b79f5"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_979f46364c02",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f",
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_97eb5a675761",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "evidence_sets": [
+        [
+          "p064_b001",
+          "p064_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p064_b001": "e47d0b5d1c2c48a539c140e02fa30061c067c7e36ab339dfd0fe61f94c02d489",
+        "p064_b002": "a378aa999f301c1c0735938c469429ecf8b15660f19bc50a4a090ca7de3a2428"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_9d3d10215b10",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p073_b002": "3ed7e6121513f8eb935d473cea71bd3af19aea72f3b3902f07cbb6b5cab85b01"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_acae94bf7796",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p047_b001": "a316468b54382f3c3b0f63e9e50355d2e290b17a27b2e3d3afc2819092b8c9c3",
+        "p049_b001": "525473d142f2b3e7a5455f67b2df0b5c43fd6f440e69834f7be6cfcd9c026744"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_b900c6c9ac6c",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p077_b001": "a1a520d3a1a395cdfe53c1568d70c2ad45a14096ba4fc86510c3b4ec6e41259b"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_bf2667a3be99",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p073_b002": "3ed7e6121513f8eb935d473cea71bd3af19aea72f3b3902f07cbb6b5cab85b01"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_c10ab59f9711",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p077_b001": "a1a520d3a1a395cdfe53c1568d70c2ad45a14096ba4fc86510c3b4ec6e41259b"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_c434312a9421",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p076_b002": "f365b64cb4aeecb0e4f21226a632a765b5bee6b52b6f193af24316ae9d96d485"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_c627a1404016",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "evidence_sets": [
+        [
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e",
+        "p054_b001": "b536154790a8a358fac2b0c5247e9a2b91a37cd93a3a8da242b2b2d17c4b79f5"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_c646a92e97da",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p074_b001": "8bbf1f223e1d25c7c5dd69bcc14ffea5f72ea32f154d07d307f147d004864946"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_c82bd6bbf30f",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p077_b001": "a1a520d3a1a395cdfe53c1568d70c2ad45a14096ba4fc86510c3b4ec6e41259b"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_cf7fe3132cbb",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p051_b001": "8f83291388a014aa50eac3228f088675777121cad489ca88ee9cfc8c24bd405f",
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_d022c32cdf23",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p074_b001": "8bbf1f223e1d25c7c5dd69bcc14ffea5f72ea32f154d07d307f147d004864946"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_d0cf5f63e173",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "evidence_sets": [
+        [
+          "p064_b001",
+          "p064_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p064_b001": "e47d0b5d1c2c48a539c140e02fa30061c067c7e36ab339dfd0fe61f94c02d489",
+        "p064_b002": "a378aa999f301c1c0735938c469429ecf8b15660f19bc50a4a090ca7de3a2428"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_dd85d1e26102",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "evidence_sets": [
+        [
+          "p041_b001",
+          "p042_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p041_b001": "9fa59479bf60097c29c59a6521f9802224d5da510e19b6c164c1e66e9d4c1ac2",
+        "p042_b001": "bc3fcde084a792ae0a7798f030bc961ed8ac94b3a364608bfa09b25c534c74c8"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_de55b8f6b20c",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "evidence_sets": [
+        [
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p052_b001": "13816f9145023e4ff03d936aa82b93b840d803ecf75c4ae4a9a373a34954de3e",
+        "p054_b001": "b536154790a8a358fac2b0c5247e9a2b91a37cd93a3a8da242b2b2d17c4b79f5"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_e6108fcf8997",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p073_b002": "3ed7e6121513f8eb935d473cea71bd3af19aea72f3b3902f07cbb6b5cab85b01"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_e8cd794422c3",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "evidence_sets": [
+        [
+          "p064_b001",
+          "p064_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p064_b001": "e47d0b5d1c2c48a539c140e02fa30061c067c7e36ab339dfd0fe61f94c02d489",
+        "p064_b002": "a378aa999f301c1c0735938c469429ecf8b15660f19bc50a4a090ca7de3a2428"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_f082c4fbbd96",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "evidence_sets": [
+        [
+          "p041_b001",
+          "p042_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p041_b001": "9fa59479bf60097c29c59a6521f9802224d5da510e19b6c164c1e66e9d4c1ac2",
+        "p042_b001": "bc3fcde084a792ae0a7798f030bc961ed8ac94b3a364608bfa09b25c534c74c8"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_f985f475b864",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p047_b001": "a316468b54382f3c3b0f63e9e50355d2e290b17a27b2e3d3afc2819092b8c9c3",
+        "p049_b001": "525473d142f2b3e7a5455f67b2df0b5c43fd6f440e69834f7be6cfcd9c026744"
+      }
+    },
+    {
+      "split": "dev",
+      "id": "qa_f9e4504f3c1e",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p074_b001": "8bbf1f223e1d25c7c5dd69bcc14ffea5f72ea32f154d07d307f147d004864946"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_0c8115213f41",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "evidence_sets": [
+        [
+          "p084_b002",
+          "p085_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p084_b002": "6ce855c94e5962a012eb5463d4d5a29c712eda0d024bd52120906d2deed64cae",
+        "p085_b001": "6d13149e86848ee2aeae45d411fd6fea0804f0cad08978b72a65705591b99850"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_1d88c859a62e",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "evidence_sets": [
+        [
+          "p084_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p084_b002": "6ce855c94e5962a012eb5463d4d5a29c712eda0d024bd52120906d2deed64cae"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_24fafa91eabd",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "evidence_sets": [
+        [
+          "p088_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p088_b001": "f3484455d9c59ff68393286b4964387068af575826fe46ffd5ad518aacd1764b"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_2840ccd17ccb",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "evidence_sets": [
+        [
+          "p081_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p081_b001": "4c1a1e5d62fb63b01dbf4bc79ba1d095e5cde4593fc9dd46f9fbf3a6b04f2d01"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_2d5af7c0ab4e",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "evidence_sets": [
+        [
+          "p088_b001",
+          "p089_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p088_b001": "f3484455d9c59ff68393286b4964387068af575826fe46ffd5ad518aacd1764b",
+        "p089_b002": "6d5847123de241dda35a2a797571b2be5cb611d2d13a4d39f24d1f13a196822d"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_2e5cf4fc5096",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "evidence_sets": [
+        [
+          "p122_b002",
+          "p120_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p122_b002": "c39aa59cdc6dc01d7e73a4edc2bb18f41039951d1b2031333142bf91be7b8d4b",
+        "p120_b002": "01bf2dfca316bf18139916248c3bda59703b7de8dc92ac48cee300a3ec40631d"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_37f709fdea51",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "evidence_sets": [
+        [
+          "p084_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p084_b002": "6ce855c94e5962a012eb5463d4d5a29c712eda0d024bd52120906d2deed64cae"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_3da941037718",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p104_b001": "4ee1abe0a55e33ea58bf88bc376112ff2318e86423dd97a286754709feeb243a"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_43d04f425e4d",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "evidence_sets": [
+        [
+          "p122_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p122_b002": "c39aa59cdc6dc01d7e73a4edc2bb18f41039951d1b2031333142bf91be7b8d4b"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_47b26bec16e9",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "evidence_sets": [
+        [
+          "p119_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p119_b001": "6da0d717c6c442fa8295a06aee58c4ae6adad8480055ea4e563f17555293781e"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_53717cb97434",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p095_b001": "9f9493777ba6d9df033cd5ea30e53cf20106b3e62e988b95826d39aeddbe50da"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_5467229fd3b1",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "evidence_sets": [
+        [
+          "p088_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p088_b001": "f3484455d9c59ff68393286b4964387068af575826fe46ffd5ad518aacd1764b"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_5e79e14b1675",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "evidence_sets": [
+        [
+          "p080_b002",
+          "p081_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p080_b002": "953709c9c4f851dee784040a05d65f5f9e19f6a8468e982ad342f104cca10b26",
+        "p081_b001": "4c1a1e5d62fb63b01dbf4bc79ba1d095e5cde4593fc9dd46f9fbf3a6b04f2d01"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_61c279164334",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "evidence_sets": [
+        [
+          "p119_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p119_b001": "6da0d717c6c442fa8295a06aee58c4ae6adad8480055ea4e563f17555293781e"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_671cac88f411",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "evidence_sets": [
+        [
+          "p125_b001",
+          "p125_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p125_b001": "e118259562fdf4f4295bb374f0c2a255513a35b54a39341576f2fe4dd43f8438",
+        "p125_b002": "4cb21e2502cf5b4ebb82aad9ec7b8b901a44f3530c3df87d11f02927acaf9265"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_702d9791d33d",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p104_b001": "4ee1abe0a55e33ea58bf88bc376112ff2318e86423dd97a286754709feeb243a"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_7cf4f0ab36ff",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p105_b002": "10713819664ecfdef37a2ef57c017d6dd861e9bf5d9c01897d44591f4ac11fe5"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_80b08e47e813",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p105_b002": "10713819664ecfdef37a2ef57c017d6dd861e9bf5d9c01897d44591f4ac11fe5"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_8283a1a87936",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "evidence_sets": [
+        [
+          "p086_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p086_b002": "acae55542e1be90fa4f682e7a1115ced108b117b16348dd59e12bcc72e4986d1"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_87b67526a604",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "evidence_sets": [
+        [
+          "p081_b001",
+          "p082_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p081_b001": "4c1a1e5d62fb63b01dbf4bc79ba1d095e5cde4593fc9dd46f9fbf3a6b04f2d01",
+        "p082_b001": "54b8dbc161ea21c03c98bf9768bd049a69caab1dcd6e598df609fdfcc5345021"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_951e55039a40",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "evidence_sets": [
+        [
+          "p088_b001",
+          "p089_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p088_b001": "f3484455d9c59ff68393286b4964387068af575826fe46ffd5ad518aacd1764b",
+        "p089_b002": "6d5847123de241dda35a2a797571b2be5cb611d2d13a4d39f24d1f13a196822d"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_967c283dc3b8",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p105_b002": "10713819664ecfdef37a2ef57c017d6dd861e9bf5d9c01897d44591f4ac11fe5"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_9c399a5f7dc8",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "evidence_sets": [
+        [
+          "p119_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p119_b001": "6da0d717c6c442fa8295a06aee58c4ae6adad8480055ea4e563f17555293781e"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_9dcea275c8c4",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p104_b001": "4ee1abe0a55e33ea58bf88bc376112ff2318e86423dd97a286754709feeb243a"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_abfec3437bf6",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "evidence_sets": [
+        [
+          "p122_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p122_b002": "c39aa59cdc6dc01d7e73a4edc2bb18f41039951d1b2031333142bf91be7b8d4b"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_b2c75b2588b4",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p104_b001": "4ee1abe0a55e33ea58bf88bc376112ff2318e86423dd97a286754709feeb243a"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_b6661c869891",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "evidence_sets": [
+        [
+          "p082_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p082_b001": "54b8dbc161ea21c03c98bf9768bd049a69caab1dcd6e598df609fdfcc5345021"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c153d8855385",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "evidence_sets": [
+        [
+          "p082_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p082_b001": "54b8dbc161ea21c03c98bf9768bd049a69caab1dcd6e598df609fdfcc5345021"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c5b0bafcb281",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "evidence_sets": [
+        [
+          "p086_b002",
+          "p087_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p086_b002": "acae55542e1be90fa4f682e7a1115ced108b117b16348dd59e12bcc72e4986d1",
+        "p087_b001": "8c66c4d48a212897f683cbea971e38ed1fe9662bdeec5d186ccb82278f8a3111"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c771f2358f20",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "evidence_sets": [
+        [
+          "p081_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p081_b001": "4c1a1e5d62fb63b01dbf4bc79ba1d095e5cde4593fc9dd46f9fbf3a6b04f2d01"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c77c4d923575",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p105_b002": "10713819664ecfdef37a2ef57c017d6dd861e9bf5d9c01897d44591f4ac11fe5"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_cdd01c99d42e",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p095_b001": "9f9493777ba6d9df033cd5ea30e53cf20106b3e62e988b95826d39aeddbe50da"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_d6027778e656",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "evidence_sets": [
+        [
+          "p011_b001",
+          "p119_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p011_b001": "c55f44cbbf8c0f23956be7ccdf027bd4502d85526bf029d510ca7a67869d9ebe",
+        "p119_b001": "6da0d717c6c442fa8295a06aee58c4ae6adad8480055ea4e563f17555293781e"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_df6a205bf9bd",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "evidence_sets": [
+        [
+          "p082_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p082_b001": "54b8dbc161ea21c03c98bf9768bd049a69caab1dcd6e598df609fdfcc5345021"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_dfd83ac673a2",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "evidence_sets": [
+        [
+          "p086_b002",
+          "p087_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p086_b002": "acae55542e1be90fa4f682e7a1115ced108b117b16348dd59e12bcc72e4986d1",
+        "p087_b001": "8c66c4d48a212897f683cbea971e38ed1fe9662bdeec5d186ccb82278f8a3111"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_e8eb1be110c9",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p095_b001": "9f9493777ba6d9df033cd5ea30e53cf20106b3e62e988b95826d39aeddbe50da"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_eaef4cd299ef",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "evidence_sets": [
+        [
+          "p080_b002",
+          "p081_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p080_b002": "953709c9c4f851dee784040a05d65f5f9e19f6a8468e982ad342f104cca10b26",
+        "p081_b001": "4c1a1e5d62fb63b01dbf4bc79ba1d095e5cde4593fc9dd46f9fbf3a6b04f2d01"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_f2d6af496450",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "evidence_sets": [
+        [
+          "p084_b002",
+          "p085_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p084_b002": "6ce855c94e5962a012eb5463d4d5a29c712eda0d024bd52120906d2deed64cae",
+        "p085_b001": "6d13149e86848ee2aeae45d411fd6fea0804f0cad08978b72a65705591b99850"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_fccb4cf17b61",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "source_sha256": {
+        "p095_b001": "9f9493777ba6d9df033cd5ea30e53cf20106b3e62e988b95826d39aeddbe50da"
+      }
+    },
+    {
+      "split": "holdout",
+      "id": "qa_fe02d9b7c66c",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "evidence_sets": [
+        [
+          "p086_b002"
+        ]
+      ],
+      "source_sha256": {
+        "p086_b002": "acae55542e1be90fa4f682e7a1115ced108b117b16348dd59e12bcc72e4986d1"
+      }
+    }
+  ]
+}

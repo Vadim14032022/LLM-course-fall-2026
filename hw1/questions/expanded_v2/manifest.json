@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "status": "frozen",
+  "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+  "annotation_hashes": {
+    "dev": "c4b2797d61ef25f978a522eb27abefeff04fc7b6f49ffd01f54c2f7ab44ed1cf",
+    "holdout": "4dd86d2beefc30938af27ce5e41df403abbef3b1d346cfa78281eee3169a7124"
+  },
+  "files": {
+    "dev_questions.jsonl": "4f68ffd3e1b20f6b855ec996bc34a31c7a0a004c8dfda15a5b3a8946083e5000",
+    "dev_gold.jsonl": "768d0c248817efc2f527f378d7a2b1b51bcec59af8f3506bff0c34ee02f2ac7a",
+    "holdout_questions.jsonl": "691a9d43af2ee8dd41f58b413f7df2d6d5c7c77f7d7ad1d0922d2afd6b74fa72",
+    "holdout_gold.jsonl": "405de3237269b68b4c3becf40ddd92f9041e765d1821228b2a437e26906c2df4",
+    "source_map.json": "94b5422be68a1d0529a50769e614702ddd0f5bdddab2303fd6c5a07dfe3b75c2"
+  },
+  "splits": {
+    "dev": {
+      "count": 40,
+      "categories": {
+        "условия": 10,
+        "недостаточность данных": 10,
+        "применение": 10,
+        "сопоставление": 10
+      },
+      "topics": {
+        "laurent_annulus": 4,
+        "argument_principle": 4,
+        "maximum_modulus": 4,
+        "winding_index": 4,
+        "pole_order": 4,
+        "removable_singularity": 4,
+        "log_branch": 4,
+        "schwarz": 4,
+        "rouche": 4,
+        "residue_coefficient": 4
+      }
+    },
+    "holdout": {
+      "count": 40,
+      "categories": {
+        "недостаточность данных": 10,
+        "применение": 10,
+        "сопоставление": 10,
+        "условия": 10
+      },
+      "topics": {
+        "normal_family_bounds": 4,
+        "cross_ratio": 4,
+        "weierstrass_limit": 4,
+        "poisson_integral": 4,
+        "monodromy": 4,
+        "harmonic_conjugate": 4,
+        "disk_automorphisms": 4,
+        "reflection": 4,
+        "mobius_group": 4,
+        "hurwitz_nonvanishing": 4
+      }
+    }
+  },
+  "policy": "Disjoint source-authored task families; deterministic content IDs and option permutation. Draft data must not be used as a frozen holdout.",
+  "frozen_at": "2026-11-04T07:47:11.834600+00:00",
+  "annotation_review_sha256": "86ff80fe98a632e4370643660a897220edcdc39bf381407bfb0c488467411a06"
+}

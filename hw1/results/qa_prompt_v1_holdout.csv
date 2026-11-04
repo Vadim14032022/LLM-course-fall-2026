@@ -1,0 +1,6 @@
+name,answer_accuracy,automatic_Q,reviewed_Q,technical_errors,technical_error_rate,mean_input_tokens,mean_output_tokens,mean_llm_calls,mean_cost,median_latency_ms,final_context_complete_rate,final_context_mean_source_recall
+holdout_no_context,0.55,,,16,0.4,290.35,3156.225,1,13171.25,62859.5,,
+holdout_bm25,0.25,0.235,0.235,30,0.75,2966.15,3659.925,1,17861.85,71704.5,0.5333333333333333,0.6
+holdout_reference,0.5,0.464,0.464,11,0.275,6133.925,2337.25,1.975,15988.525,41423.5,0.4,0.5
+holdout_without_prefill,0.1,0.09333333333333334,0.09333333333333334,36,0.9,3152.475,4011.925,1,19456.175,71955.5,0.5333333333333333,0.6
+holdout_without_neighbors,0.625,0.5833333333333334,0.5358333333333334,10,0.25,5644.55,2062.475,1.9,14380.85,40247.5,0.36666666666666664,0.4666666666666667

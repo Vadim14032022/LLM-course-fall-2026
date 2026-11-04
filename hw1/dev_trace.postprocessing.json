@@ -1,0 +1,6 @@
+{
+  "source": "canonical normalizer used during original generation",
+  "normalizer_protocol_sha256": "bc0bf426a137dccb5b6c1ec5f9e576d97d2627e605c3bcfae2d80c815408ca6d",
+  "generation_protocol_sha256": "37c68ff3ed0fbeeec619be5a1e0d36e82fd10ed839efe0665b5c6cb6b1113ce8",
+  "replay_performed": false
+}

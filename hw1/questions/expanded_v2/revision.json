@@ -1,0 +1,21 @@
+{
+  "parent": "expanded_v1",
+  "parent_manifest_sha256": "00c7e3c9e6c22bd414b396aecf43922669379ea4d91117f6a387c44de2bde08a",
+  "changes": [
+    {
+      "old_id": "qa_07e6d085ddb7",
+      "new_id": "qa_f9e4504f3c1e",
+      "reason": "Clarify both applicability and conclusions. Answer truth values unchanged."
+    },
+    {
+      "old_id": "qa_4a9e04fd870c",
+      "new_id": "qa_cf7fe3132cbb",
+      "reason": "Clarify reciprocal 1/f, not inverse mapping. Answer truth values unchanged."
+    }
+  ],
+  "pilot_analysis_excluded_ids": [
+    "qa_07e6d085ddb7",
+    "qa_4a9e04fd870c"
+  ],
+  "holdout_unchanged": true
+}

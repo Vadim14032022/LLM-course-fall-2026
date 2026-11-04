@@ -1,0 +1,17 @@
+dataset,version,exact,total
+original_dev,6,16,16
+original_extra,6,6,6
+hard_dev,6,11,12
+hard_holdout,6,5,6
+original_dev,quality_before,15,16
+original_extra,quality_before,4,6
+hard_dev,quality_before,8,12
+hard_holdout,quality_before,6,6
+original_dev,quality_current,15,16
+original_extra,quality_current,4,6
+hard_dev,quality_current,8,12
+hard_holdout,quality_current,6,6
+original_dev,review2_v5,16,16
+original_test,review2_v5,6,6
+hard_dev,review2_v5,12,12
+hard_test,review2_v5,6,6

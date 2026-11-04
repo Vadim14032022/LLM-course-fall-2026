@@ -1,0 +1,21 @@
+{
+  "runtime": "../../runtime.json",
+  "corpus": {
+    "target_chars": 1800
+  },
+  "chunking": {
+    "target_chars": 1600
+  },
+  "retrieval": {
+    "method": "bm25",
+    "top_k": 6,
+    "neighbors": 0
+  },
+  "generation": {
+    "mode": "no_context",
+    "max_tokens": 4096
+  },
+  "execution": {
+    "workers": 4
+  }
+}

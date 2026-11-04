@@ -1,0 +1,120 @@
+{
+  "config": {
+    "runtime": "../../runtime.json",
+    "corpus": {
+      "target_chars": 1800
+    },
+    "chunking": {
+      "target_chars": 1600
+    },
+    "retrieval": {
+      "method": "bm25",
+      "top_k": 6,
+      "neighbors": 1,
+      "rrf_k": 60,
+      "neighbor_policy": "seeds_first"
+    },
+    "generation": {
+      "mode": "rag",
+      "max_tokens": 4096,
+      "concise_analysis": false,
+      "context_input_tokens": 3200,
+      "response_strategy": "draft_then_prefill",
+      "draft_tokens": 2048
+    },
+    "execution": {
+      "workers": 4
+    }
+  },
+  "runtime": {
+    "model": {
+      "id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "provider": "vllm",
+      "precision": "bfloat16",
+      "quantization": null,
+      "thinking": true
+    },
+    "api": {
+      "protocol": "openai-chat-completions",
+      "base_url": "http://127.0.0.1:8000/v1",
+      "api_key_env": "LLM_API_KEY",
+      "question_id_header": "X-Question-ID",
+      "submission_id_header": "X-Submission-ID",
+      "submission_id_env": "SUBMISSION_ID",
+      "local_development_submission_id": "local-development"
+    },
+    "sampling": {
+      "profile": "qwen3.5-thinking-general",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "repetition_penalty": 1.0
+    },
+    "limits": {
+      "max_llm_calls_per_question": 4,
+      "max_input_tokens_per_question": 16384,
+      "max_output_tokens_per_question": 4096,
+      "max_completion_tokens_per_request": 4096,
+      "max_input_plus_output_tokens_per_request": 8192
+    },
+    "resources": {
+      "device": "NVIDIA GeForce RTX 4080",
+      "gpu_memory_gib": 16,
+      "host_ram_gib": 31,
+      "max_model_len": 8192,
+      "max_num_seqs": 32,
+      "gpu_memory_utilization": 0.85,
+      "language_model_only": true,
+      "reasoning_parser": "qwen3"
+    },
+    "timeouts_seconds": {
+      "connect": 10,
+      "request": 900,
+      "server_startup": 600
+    },
+    "software": {
+      "conda_environment": "tfkp-qwen",
+      "python": "3.12",
+      "vllm": "0.29.0+cu129",
+      "cuda_toolkit": "12.9.86",
+      "cuda_curand_dev": "10.3.10.19"
+    }
+  },
+  "code_sha256": {
+    "predict.py": "0f91d1b2d4a9cd4d665ba8227df71c11c10bd952e1cab1a8469250124da0d015",
+    "src/llm.py": "3adf86ae6fbc117247b865538d12192a16b2be4050c6011926f8426dfff471db",
+    "src/pipeline.py": "3f307aa3499339db9994c73e64afb3124febaaaf0fef8b34af21bfb0dba1217d",
+    "src/generation.py": "178ca65b9712a8c65d263be05391749652b29cc473cce8afa03e221a539fff46",
+    "src/retrieval.py": "c9e15950be1a2d09a598c0ec5035c1ad0ef8214a684f309c305528725d6a0a40",
+    "src/dense.py": "d5fa63a6ad31ae4cef77a07ff9f92b73788242c626242be71f39fd90962c59f0",
+    "src/context.py": "0eecc2a4fa799bb070010713927571af9a5ed1b1c249a44cbac0c798828f2c1a",
+    "src/math_search.py": "903db8d988150c671688dbe63788b46eafc8a4ca75d98c9680ea1d50754fe513",
+    "src/validation.py": "4d49df0179b6628aa59f0e8165eec3c3d3d0209f88aee0142028cf5b004d02b9"
+  },
+  "inputs": {
+    "questions_sha256": "1e3e67f69a85855bdeb835268fb46fe4d6897e4863d03eda920f4eb38365074c",
+    "index_identity_sha256": "ccaef05fd43092a2751566cd86f82628c1d9db083bc4fb43b1bcd719f92a7f15",
+    "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+    "chunks_sha256": "f059ddc9c4eae247585841c3ae9d999294d34b7de07f91300c6c746e94518717"
+  },
+  "generation_protocol": {
+    "version": 1,
+    "components": {
+      "generation": "178ca65b9712a8c65d263be05391749652b29cc473cce8afa03e221a539fff46",
+      "retrieval": "c9e15950be1a2d09a598c0ec5035c1ad0ef8214a684f309c305528725d6a0a40",
+      "math_search": "903db8d988150c671688dbe63788b46eafc8a4ca75d98c9680ea1d50754fe513",
+      "llm": "3adf86ae6fbc117247b865538d12192a16b2be4050c6011926f8426dfff471db",
+      "messages_for": "de6ffa7d677d04988a17447476e271fae5b7a3c7adf7554512918527e50ae992",
+      "canonical_answer_validation": "6b50a3652c086fdb9a1aececd329726f01e503ce6a8ae101c51254f675bd5406",
+      "system_prompt": "a2669c94eb0f5de39c445264e6ef700ade6deb11e2ac238accdbc5cbb63dbde2",
+      "context_packer": "0eecc2a4fa799bb070010713927571af9a5ed1b1c249a44cbac0c798828f2c1a"
+    },
+    "config_sha256": "824244a223f65a9b44d68348ce1b4459ed525f597b9c577b4aea71e6d1afd5ea",
+    "runtime_sha256": "2736d34fc095a55931306e6a809214b12763e115612497dfa4e4f61174101f01",
+    "sha256": "37c68ff3ed0fbeeec619be5a1e0d36e82fd10ed839efe0665b5c6cb6b1113ce8"
+  },
+  "normalizer_protocol_sha256": "bc0bf426a137dccb5b6c1ec5f9e576d97d2627e605c3bcfae2d80c815408ca6d"
+}

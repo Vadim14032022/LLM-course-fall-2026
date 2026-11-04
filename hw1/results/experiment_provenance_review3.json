@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "cohort_manifest": "artifacts/review3_ablation_runs/final_cohort.json",
+  "cohort_manifest_sha256": "850aa70e67e13a44ef717b77e7d48a5266f0d39ed5a78aca1ac559f1e4d00986",
+  "selected_run": "final_rag",
+  "selection_reason": "Reference system used for two single-component ablations; the neighbor ablation scored higher in this one run.",
+  "inputs": {
+    "questions_sha256": "1e3e67f69a85855bdeb835268fb46fe4d6897e4863d03eda920f4eb38365074c",
+    "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+    "gold_sha256": "2b1e71bb5d00ad05d67c81477e2d6a399e6368384d320f2aa9ac3241d391debf",
+    "runtime_sha256": "2736d34fc095a55931306e6a809214b12763e115612497dfa4e4f61174101f01",
+    "normalizer_id": "protocol:bc0bf426a137dccb5b6c1ec5f9e576d97d2627e605c3bcfae2d80c815408ca6d",
+    "evaluation_protocol_sha256": "e67179514e095470b219a065b5b858762569be579ba4f71495c32d8301efe858"
+  },
+  "selected": {
+    "name": "final_rag",
+    "directory": "../review2_final_runs/without_concise",
+    "review_status": "reviewed",
+    "answers_sha256": "d8637d31dedd34ce298200b9b927cf15a8cdde8b2ac217473b70dc2789eca7b9",
+    "trace_sha256": "5c67d927192e8ca493d62c22dfddac10d1eb1c8216ecd3481e284183b01774e9",
+    "review_sha256": "8d0439b55410cb96bd4c322d4a4d21007d0ac671f9c2c4013087dd2489f9cf41",
+    "metrics": {
+      "answer_accuracy": 0.6666666666666666,
+      "Q": 0.5869444444444445,
+      "automatic_Q": 0.6536111111111111,
+      "content_overrides": 1,
+      "technical_errors": 2,
+      "mean_input_tokens": 6011.133333333333,
+      "mean_output_tokens": 2218.9333333333334,
+      "mean_llm_calls": 1.9333333333333333,
+      "mean_cost": 15381.8,
+      "median_latency_ms": 41508,
+      "usage_verified": true
+    },
+    "config_path": "configs/submission/without_concise.json",
+    "role": "final"
+  },
+  "runs": [
+    {
+      "name": "no_context",
+      "directory": "../review2_final_runs/no_context",
+      "review_status": "not_applicable",
+      "answers_sha256": "fe3543ba904da932f5fe5607967406e62b6de00ddfb97a423e3d958a90f7f570",
+      "trace_sha256": "4af9bc8adb708d0a6c2411a65f4fe6a9485ca0f32e1d5c8448e9e4c93df7688e",
+      "review_sha256": null,
+      "metrics": {
+        "answer_accuracy": 0.4666666666666667,
+        "Q": null,
+        "automatic_Q": null,
+        "content_overrides": 0,
+        "technical_errors": 7,
+        "mean_input_tokens": 317.1333333333333,
+        "mean_output_tokens": 2948,
+        "mean_llm_calls": 1,
+        "mean_cost": 12365.133333333333,
+        "median_latency_ms": 61048,
+        "usage_verified": true
+      },
+      "config_path": "configs/submission/no_context.json",
+      "role": "no_context"
+    },
+    {
+      "name": "bm25",
+      "directory": "../review2_final_runs/bm25",
+      "review_status": "reviewed",
+      "answers_sha256": "2fc6a826b486e99bb4127fb6d86f7368c5d20bca23251763ce32440b2c6a0985",
+      "trace_sha256": "98a4ccc86956004bb8ef679bf918ae772951d4d24436665fbbc49a2a91fd4efd",
+      "review_sha256": "6f1883921cc119d018a1dd03fb77c7e33f83f88651a054963279e3b6d7f07dd0",
+      "metrics": {
+        "answer_accuracy": 0.3333333333333333,
+        "Q": 0.30444444444444446,
+        "automatic_Q": 0.30444444444444446,
+        "content_overrides": 0,
+        "technical_errors": 10,
+        "mean_input_tokens": 2917.733333333333,
+        "mean_output_tokens": 3590.733333333333,
+        "mean_llm_calls": 1,
+        "mean_cost": 17536.666666666668,
+        "median_latency_ms": 71659,
+        "usage_verified": true
+      },
+      "config_path": "configs/submission/bm25.json",
+      "role": "baseline"
+    },
+    {
+      "name": "final_rag",
+      "directory": "../review2_final_runs/without_concise",
+      "review_status": "reviewed",
+      "answers_sha256": "d8637d31dedd34ce298200b9b927cf15a8cdde8b2ac217473b70dc2789eca7b9",
+      "trace_sha256": "5c67d927192e8ca493d62c22dfddac10d1eb1c8216ecd3481e284183b01774e9",
+      "review_sha256": "8d0439b55410cb96bd4c322d4a4d21007d0ac671f9c2c4013087dd2489f9cf41",
+      "metrics": {
+        "answer_accuracy": 0.6666666666666666,
+        "Q": 0.5869444444444445,
+        "automatic_Q": 0.6536111111111111,
+        "content_overrides": 1,
+        "technical_errors": 2,
+        "mean_input_tokens": 6011.133333333333,
+        "mean_output_tokens": 2218.9333333333334,
+        "mean_llm_calls": 1.9333333333333333,
+        "mean_cost": 15381.8,
+        "median_latency_ms": 41508,
+        "usage_verified": true
+      },
+      "config_path": "configs/submission/without_concise.json",
+      "role": "final"
+    },
+    {
+      "name": "selected_without_finalization",
+      "directory": "selected_without_finalization",
+      "review_status": "reviewed",
+      "answers_sha256": "05f6f9becbd240e33c4f305950e3af51722598dd4a163d4a3f14480934c44be6",
+      "trace_sha256": "9ad42cbaea24d05643461a8b0d9ae155e92773bf72e3881c2d1bbc499baffd84",
+      "review_sha256": "7d6ca5b2b9a05af30c8c12d60610e033e0fcf23a739fafc250e36ff26e3d4ef6",
+      "metrics": {
+        "answer_accuracy": 0.3333333333333333,
+        "Q": 0.3136111111111111,
+        "automatic_Q": 0.3136111111111111,
+        "content_overrides": 0,
+        "technical_errors": 10,
+        "mean_input_tokens": 3163.6666666666665,
+        "mean_output_tokens": 3531.3333333333335,
+        "mean_llm_calls": 1,
+        "mean_cost": 17545,
+        "median_latency_ms": 93424,
+        "usage_verified": true
+      },
+      "config_path": "configs/submission/selected_without_finalization.json",
+      "role": "ablation_finalization"
+    },
+    {
+      "name": "selected_without_neighbors",
+      "directory": "selected_without_neighbors",
+      "review_status": "reviewed",
+      "answers_sha256": "4b974a68868703e3067b7d411dbcf732598a2ff8843021263f498669a251a864",
+      "trace_sha256": "61558b16a969829bd684031a825195ae11619cf48319c340b457b2de245099c8",
+      "review_sha256": "0ea2c601c455acbcc0da1cca241174888530c5402a527329a876258f827458d0",
+      "metrics": {
+        "answer_accuracy": 0.6666666666666666,
+        "Q": 0.6325,
+        "automatic_Q": 0.6325,
+        "content_overrides": 1,
+        "technical_errors": 4,
+        "mean_input_tokens": 5498.333333333333,
+        "mean_output_tokens": 2211,
+        "mean_llm_calls": 1.8666666666666667,
+        "mean_cost": 14820.2,
+        "median_latency_ms": 54465,
+        "usage_verified": true
+      },
+      "config_path": "configs/submission/selected_without_neighbors.json",
+      "role": "ablation_neighbors"
+    }
+  ],
+  "csv_sha256": "5674ea0f1b59ee41873df9e013722d28eac090b7cd4d18227a9695e31167e823"
+}

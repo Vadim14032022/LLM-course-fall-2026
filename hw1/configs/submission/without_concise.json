@@ -1,0 +1,27 @@
+{
+  "runtime": "../../runtime.json",
+  "corpus": {
+    "target_chars": 1800
+  },
+  "chunking": {
+    "target_chars": 1600
+  },
+  "retrieval": {
+    "method": "bm25",
+    "top_k": 6,
+    "neighbors": 1,
+    "rrf_k": 60,
+    "neighbor_policy": "seeds_first"
+  },
+  "generation": {
+    "mode": "rag",
+    "max_tokens": 4096,
+    "concise_analysis": false,
+    "context_input_tokens": 3200,
+    "response_strategy": "draft_then_prefill",
+    "draft_tokens": 2048
+  },
+  "execution": {
+    "workers": 4
+  }
+}
