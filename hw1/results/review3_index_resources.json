@@ -1,0 +1,27 @@
+{
+  "search_initialization_seconds_including_imports": 0.16447802899347153,
+  "peak_rss_kib": 42220,
+  "index_bytes": 1210943,
+  "chunks": 402,
+  "method": "bm25",
+  "scope": "CPU search initialization; excludes tokenizer, PDF extraction and LLM",
+  "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+  "index_manifest_sha256": "f6c9af1a20ece1b8036362b458776fbe27fa572ee0f10a78aed40bad79b42c19",
+  "build": {
+    "build_seconds": 0.022175175006850623,
+    "peak_ram_kib": 19288,
+    "blocks": 298,
+    "chunks": 402,
+    "chunking": {
+      "target_chars": 1600
+    }
+  },
+  "equipment": {
+    "cpu": "AMD Ryzen 7 5700X 8-Core Processor",
+    "logical_cpus": 16,
+    "host_ram_gib": 31,
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_memory_mib": 16376,
+    "client_python": "3.11"
+  }
+}

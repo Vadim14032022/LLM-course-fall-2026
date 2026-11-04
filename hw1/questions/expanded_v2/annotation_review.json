@@ -1,0 +1,1465 @@
+{
+  "status": "reviewed",
+  "reviewed_at": "2026-11-04T07:47:11.834600+00:00",
+  "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+  "annotation_hashes": {
+    "dev": "c4b2797d61ef25f978a522eb27abefeff04fc7b6f49ffd01f54c2f7ab44ed1cf",
+    "holdout": "4dd86d2beefc30938af27ce5e41df403abbef3b1d346cfa78281eee3169a7124"
+  },
+  "reviewed_question_ids": [
+    "qa_0c8115213f41",
+    "qa_148d6efd8955",
+    "qa_17cb5cef084b",
+    "qa_1d88c859a62e",
+    "qa_24fafa91eabd",
+    "qa_2619f5d4fdff",
+    "qa_2840ccd17ccb",
+    "qa_28b64bc4bde7",
+    "qa_2d5af7c0ab4e",
+    "qa_2e5cf4fc5096",
+    "qa_37f709fdea51",
+    "qa_3da941037718",
+    "qa_43d04f425e4d",
+    "qa_453ce47900ac",
+    "qa_47b26bec16e9",
+    "qa_47b294afd93d",
+    "qa_53717cb97434",
+    "qa_5467229fd3b1",
+    "qa_547fe806bc46",
+    "qa_5564ebe2869f",
+    "qa_59d1540bdfc1",
+    "qa_5c783f91b906",
+    "qa_5e79e14b1675",
+    "qa_61c279164334",
+    "qa_63a0a5c78a89",
+    "qa_671cac88f411",
+    "qa_69528736dc48",
+    "qa_6acacdae1223",
+    "qa_702d9791d33d",
+    "qa_7048e95ab12a",
+    "qa_7272aea180e4",
+    "qa_7b0ac4172e97",
+    "qa_7bd4bb76c0be",
+    "qa_7cf4f0ab36ff",
+    "qa_80b08e47e813",
+    "qa_8283a1a87936",
+    "qa_864b7dd5267b",
+    "qa_87b67526a604",
+    "qa_890f08607fe5",
+    "qa_951e55039a40",
+    "qa_967c283dc3b8",
+    "qa_979f46364c02",
+    "qa_97eb5a675761",
+    "qa_9c399a5f7dc8",
+    "qa_9d3d10215b10",
+    "qa_9dcea275c8c4",
+    "qa_abfec3437bf6",
+    "qa_acae94bf7796",
+    "qa_b2c75b2588b4",
+    "qa_b6661c869891",
+    "qa_b900c6c9ac6c",
+    "qa_bf2667a3be99",
+    "qa_c10ab59f9711",
+    "qa_c153d8855385",
+    "qa_c434312a9421",
+    "qa_c5b0bafcb281",
+    "qa_c627a1404016",
+    "qa_c646a92e97da",
+    "qa_c771f2358f20",
+    "qa_c77c4d923575",
+    "qa_c82bd6bbf30f",
+    "qa_cdd01c99d42e",
+    "qa_cf7fe3132cbb",
+    "qa_d022c32cdf23",
+    "qa_d0cf5f63e173",
+    "qa_d6027778e656",
+    "qa_dd85d1e26102",
+    "qa_de55b8f6b20c",
+    "qa_df6a205bf9bd",
+    "qa_dfd83ac673a2",
+    "qa_e6108fcf8997",
+    "qa_e8cd794422c3",
+    "qa_e8eb1be110c9",
+    "qa_eaef4cd299ef",
+    "qa_f082c4fbbd96",
+    "qa_f2d6af496450",
+    "qa_f985f475b864",
+    "qa_f9e4504f3c1e",
+    "qa_fccb4cf17b61",
+    "qa_fe02d9b7c66c"
+  ],
+  "method": "Source-theorem and option/counterexample review before any Qwen inference; checked domain assumptions, orientations, multiplicities, limits, and all distractors.",
+  "split_review": "Different direct task families across dev and holdout; shared foundational prerequisites do not constitute numerical variants of one task. Similarity candidates were generic compare-function phrasing, not cross-split numerical clones.",
+  "limitations": [
+    "Locally authored holdout, not an external independent exam.",
+    "Shared textbook and prerequisites; family split is not a claim of statistical independence.",
+    "Source extraction contains glyph/layout noise; corpus intentionally unchanged."
+  ],
+  "questions": [
+    {
+      "split": "dev",
+      "id": "qa_28b64bc4bde7",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "reviewed_answer_texts": [
+        "Индекс целочисленный.",
+        "В каждой компоненте дополнения индекс постоянен.",
+        "Во внешней компоненте индекс равен нулю."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p042_b001"
+        ]
+      ],
+      "finding": "Теорема об индексе даёт целочисленность, постоянство по компонентам и нуль снаружи. Значения в ограниченных компонентах зависят от кривой, возможен многократный обход.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_f082c4fbbd96",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "reviewed_answer_texts": [
+        "J(γ,0)=2.",
+        "J(γ,3)=0.",
+        "Смена направления обхода делает J(γ,0) равным −2."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p041_b001",
+          "p042_b001"
+        ]
+      ],
+      "finding": "Индекс складывается по обходам, меняет знак при смене ориентации и равен нулю во внешней компоненте. Двойной обход опровергает ограничение тремя значениями.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_148d6efd8955",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "reviewed_answer_texts": [
+        "Разложение по целым степеням z−a существует.",
+        "Коэффициенты не зависят от выбора промежуточного радиуса интегрирования.",
+        "Представление в данном кольце единственно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001"
+        ]
+      ],
+      "finding": "Теоремы существования и единственности фиксируют коэффициенты интегралами по любому промежуточному кругу. Голоморфность в кольце допускает отрицательные степени, например 1/(z−a).",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_f985f475b864",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "reviewed_answer_texts": [
+        "В обоих кольцах коэффициент при z⁻¹ равен 1.",
+        "В обоих кольцах все остальные коэффициенты равны нулю."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001"
+        ]
+      ],
+      "finding": "Само выражение 1/z является сходящимся рядом Лорана в обоих кольцах. Единственность исключает другие коэффициенты; центр не принадлежит кольцу и особенность в нём допустима.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_6acacdae1223",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "reviewed_answer_texts": [
+        "f ограничена в некоторой проколотой окрестности a.",
+        "В точке a существует конечный предел f.",
+        "В локальном ряде Лорана отсутствует главная часть."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p050_b001",
+          "p051_b001"
+        ]
+      ],
+      "finding": "Конечный предел определяет устранимость, ограниченность эквивалентна ей по теореме, отсутствие главной части также эквивалентно. Последний пункт противоречит первому.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_547fe806bc46",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "reviewed_answer_texts": [
+        "У f особенность устранима.",
+        "f ограничена в достаточно малом проколотом круге, g не ограничена."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p050_b001",
+          "p051_b001"
+        ]
+      ],
+      "finding": "f имеет конечный предел 7 и ограничена, g стремится к бесконечности и имеет полюс. Голоморфности только в проколотом круге недостаточно для устранимости.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_5564ebe2869f",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "reviewed_answer_texts": [
+        "1/f имеет нуль порядка m после доопределения в a.",
+        "Главная часть ряда Лорана конечна и содержит ненулевой член степени −m."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "finding": "Порядок полюса определяется нулём 1/f и старшей отрицательной степенью. Коэффициент при степени −1 может отсутствовать: у 1/(z−a)² вычет нулевой.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_979f46364c02",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "reviewed_answer_texts": [
+        "У f полюс второго порядка, у g — первого.",
+        "Нули доопределённых 1/f и 1/g имеют соответственно порядки 2 и 1."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001"
+        ]
+      ],
+      "finding": "Конечные главные части z⁻² и z⁻¹ задают полюса разных порядков; обратные функции z² и z имеют соответствующие порядки нулей.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_890f08607fe5",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "reviewed_answer_texts": [
+        "Вычет равен коэффициенту при (z−a)⁻¹ ряда Лорана.",
+        "В устранимой особой точке вычет нулевой."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p054_b001"
+        ]
+      ],
+      "finding": "Вычет — коэффициент при степени −1; в устранимой особенности отрицательных степеней нет. Обратное неверно, пример 1/(z−a)² имеет полюс и нулевой вычет.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_de55b8f6b20c",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "reviewed_answer_texts": [
+        "res₀ f=5.",
+        "res₀ g=0.",
+        "Обе функции имеют полюс второго порядка."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "finding": "Коэффициенты z⁻¹ равны 5 и 0, а старшая отрицательная степень обеих функций −2. Порядок полюса и вычет — разные характеристики.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_e8cd794422c3",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "reviewed_answer_texts": [
+        "Индекс образа каждой замкнутой кривой относительно нуля равен 0.",
+        "Все периоды интеграла f′/f по замкнутым кривым равны 0."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p064_b001",
+          "p064_b002"
+        ]
+      ],
+      "finding": "Теорема о ветви логарифма требует нулевых индексов всех кривых, эквивалентно нулевым периодам f′/f. Односвязность достаточна, но не необходима: у f≡1 есть ветвь 0 в любой области.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_5c783f91b906",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "reviewed_answer_texts": [
+        "Для f существует голоморфная ветвь логарифма 0.",
+        "Для g глобальная голоморфная ветвь логарифма не существует."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p041_b001",
+          "p064_b001"
+        ]
+      ],
+      "finding": "У постоянной функции f ветвь задана явно. Для g образ единичного положительного круга имеет индекс 1, что нарушает критерий; существенны и область, и функция.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_e6108fcf8997",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "reviewed_answer_texts": [
+        "Функция мероморфна в окрестности замыкания области.",
+        "На границе нет нулей и полюсов функции.",
+        "Функция может иметь полюсы внутри области."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "finding": "Принцип аргумента допускает внутри полюсы, но требует мероморфности в окрестности замыкания и отсутствия нулей и полюсов на границе. Одной точки недостаточно.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_9d3d10215b10",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "reviewed_answer_texts": [
+        "N−P=2.",
+        "Если P=3, то N=5."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "finding": "Принцип аргумента определяет разность N−P, а не оба числа. При P=3 получаем N=5; возможны и другие пары с той же разностью.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_f9e4504f3c1e",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "reviewed_answer_texts": [
+        "f и f+φ имеют одинаковое число нулей в D с кратностями.",
+        "Неравенство нужно проверять на границе, а не во всех внутренних точках."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "finding": "Руше сохраняет число нулей с кратностями, но не их положения. Гипотеза — граничное строгое неравенство; нули внутри допустимы.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_7272aea180e4",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "reviewed_answer_texts": [
+        "Обе функции имеют по три нуля с кратностями.",
+        "На границе |1|<|z³|, поэтому применима теорема Руше."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "finding": "На |z|=2 имеем 1<8; у z³ три нуля с кратностями, значит и у z³+1 столько же. Нуль 0 для второй функции не является нулём; кратности теоремой учитываются.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_c434312a9421",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "reviewed_answer_texts": [
+        "Модуль не достигает своего максимума во внутренней точке D.",
+        "Re f не достигает максимума во внутренней точке D."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "finding": "Принцип сформулирован для непостоянной функции и запрещает внутренний максимум модуля и экстремумы Re/Im. Минимум модуля возможен: у f(z)=z он в нуле.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_47b294afd93d",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "reviewed_answer_texts": [
+        "|f| имеет минимум 0 внутри круга, что не противоречит принципу максимума.",
+        "g достигает максимума модуля в каждой точке и не нарушает теорему для непостоянных функций."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "finding": "У z внутренний минимум, а не максимум. Постоянная 2 не удовлетворяет гипотезе непостоянства, поэтому не является контрпримером.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_c10ab59f9711",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "reviewed_answer_texts": [
+        "|f(z)|≤|z| во всём круге.",
+        "|f′(0)|≤1.",
+        "Если |f′(0)|=1, то f(z)=e^{iθ}z для некоторого вещественного θ."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "finding": "Лемма даёт обе оценки и жёсткий случай равенства. Всеобщее равенство неверно, например для f≡0.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_c82bd6bbf30f",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "reviewed_answer_texts": [
+        "Для 0<|z|<1 выполнено |f(z)|<|z|.",
+        "Для g выполнено |g(z)|=|z|."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "finding": "У z² модуль |z|²<|z| и производная в нуле 0; у iz модуль сохраняется и производная имеет модуль 1. Это строгий и предельный случаи леммы.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_7b0ac4172e97",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "reviewed_answer_texts": [
+        "J(Γ,a)=5.",
+        "J(−Γ,a)=−5."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p041_b001",
+          "p044_b001"
+        ]
+      ],
+      "finding": "Индекс линеен по циклам: 2−3(−1)=5. Обращение ориентации меняет знак; ограничение числом разных кривых неверно.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_acae94bf7796",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "reviewed_answer_texts": [
+        "c₋₃=2.",
+        "c₋₂=0.",
+        "c₀=7."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001"
+        ]
+      ],
+      "finding": "Данное выражение уже является конечным рядом Лорана, коэффициенты единственны. В частности, c₋₁=−4, а не 4.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_7bd4bb76c0be",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "reviewed_answer_texts": [
+        "Значение продолжения в 1 равно 2.",
+        "Производная продолжения в 1 равна 1."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p050_b001"
+        ]
+      ],
+      "finding": "Сокращение даёт f=z+1 вне точки 1. Единственное непрерывное голоморфное продолжение имеет значение 2 и производную 1; ограниченная особенность устранима.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_cf7fe3132cbb",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "reviewed_answer_texts": [
+        "У f полюс порядка 3.",
+        "Функция 1/f после доопределения имеет нуль порядка 3."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001"
+        ]
+      ],
+      "finding": "После сокращения f=(z−2)⁻³. Старшая отрицательная степень и порядок нуля обратной функции равны 3; ни числитель отдельно, ни знаменатель отдельно порядок не задают.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_864b7dd5267b",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "reviewed_answer_texts": [
+        "Вычет равен 2.",
+        "Коэффициент при (z−1)⁻² равен 2."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "finding": "При t=z−1 выражение равно 2t⁻²+2t⁻¹+1. Поэтому полюс второго порядка, а вычет и коэффициент t⁻² равны 2.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_d0cf5f63e173",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "reviewed_answer_texts": [
+        "L′(z)=1/(2+z).",
+        "L′(0)=1/2."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p064_b001",
+          "p064_b002"
+        ]
+      ],
+      "finding": "Из e^L=f следует L′=f′/f. Здесь f=2+z, f′=1, функция ненулевая в односвязном круге; производная в нуле 1/2.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_bf2667a3be99",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "reviewed_answer_texts": [
+        "Индекс f(γ) относительно 0 равен 5.",
+        "Приращение arg f вдоль γ равно 10π.",
+        "Интеграл f′/f по γ равен 10πi."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "finding": "Принцип аргумента даёт N−P=5, приращение аргумента 2π(N−P), интеграл 2πi(N−P). Сумма N+P здесь не используется.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_c646a92e97da",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "reviewed_answer_texts": [
+        "Нулей ровно 5.",
+        "На |z|=2 выполнено |2z+1|≤5<32=|z⁵|.",
+        "Теорема Руше применима к z⁵ и 2z+1 на этой границе."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "finding": "На окружности остаток не превосходит 5, главная часть имеет модуль 32. Руше даёт столько же нулей, сколько у z⁵, то есть 5 с кратностями.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_2619f5d4fdff",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "reviewed_answer_texts": [
+        "Максимум |f| равен 2.",
+        "На границе достигается |f(1)|=2."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "finding": "Оценка |z³+1|≤|z|³+1≤2 точна при z=1. В нуле значение 1 меньше максимума; граница в запрет внутренних максимумов не входит.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_b900c6c9ac6c",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "reviewed_answer_texts": [
+        "f(z)=e^{iθ}z для некоторого вещественного θ.",
+        "|f′(0)|=1.",
+        "f(1/4)=f(1/2)/2."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "finding": "Равенство в оценке Шварца в ненулевой точке даёт вращение. Модуль производной равен 1, а линейность задаёт отношение значений; фаза θ не определяется.",
+      "missing_information": ""
+    },
+    {
+      "split": "dev",
+      "id": "qa_dd85d1e26102",
+      "topic": "winding_index",
+      "family_id": "winding_index",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p041_b001",
+          "p042_b001"
+        ]
+      ],
+      "finding": "Если b снаружи, сумма 1; если b внутри, сумма 2. Оба случая допускаются условием.",
+      "missing_information": "Положение b относительно окружности не задано."
+    },
+    {
+      "split": "dev",
+      "id": "qa_7048e95ab12a",
+      "topic": "laurent_annulus",
+      "family_id": "laurent_annulus",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p047_b001",
+          "p049_b001",
+          "p036_b001"
+        ]
+      ],
+      "finding": "В |z|<1 имеем −Σₙ₌₀∞ zⁿ и c₋₁=0. В |z|>1 имеем Σₙ₌₁∞ z⁻ⁿ и c₋₁=1. Ряд Лорана единственен в заданном кольце, а не одновременно во всех кольцах.",
+      "missing_information": "Не задано кольцо разложения относительно особой точки z=1."
+    },
+    {
+      "split": "dev",
+      "id": "qa_59d1540bdfc1",
+      "topic": "removable_singularity",
+      "family_id": "removable_singularity",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p050_b001",
+          "p051_b001",
+          "p020_b001"
+        ]
+      ],
+      "finding": "f(z)=z имеет устранимую особенность, а f(z)=exp(−1/z²) — существенно особую, хотя обе ограничены на положительной вещественной полуоси. Ограниченность на всей проколотой окрестности не дана.",
+      "missing_information": "Нужно поведение в комплексной проколотой окрестности, а не только на одном отрезке."
+    },
+    {
+      "split": "dev",
+      "id": "qa_453ce47900ac",
+      "topic": "pole_order",
+      "family_id": "pole_order",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p051_b001",
+          "p052_b001"
+        ]
+      ],
+      "finding": "f=1/z и f=1/z⁴ удовлетворяют оценке и имеют разные порядки. Оценка сверху не задаёт точный старший отрицательный член.",
+      "missing_information": "Не задан старший ненулевой член главной части или эквивалентная точная асимптотика."
+    },
+    {
+      "split": "dev",
+      "id": "qa_c627a1404016",
+      "topic": "residue_coefficient",
+      "family_id": "residue_coefficient",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p052_b001",
+          "p054_b001"
+        ]
+      ],
+      "finding": "Функции z⁻³ и z⁻³+z⁻¹ имеют одинаковый порядок полюса 3, но вычеты 0 и 1.",
+      "missing_information": "Не известен коэффициент при z⁻¹; порядок полюса его не определяет."
+    },
+    {
+      "split": "dev",
+      "id": "qa_97eb5a675761",
+      "topic": "log_branch",
+      "family_id": "log_branch",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p064_b001",
+          "p064_b002"
+        ]
+      ],
+      "finding": "Постоянные ветви L≡0 и L≡2πi обе удовлетворяют e^L=1. Значение в базовой точке выбирается при фиксации ветви.",
+      "missing_information": "Не задано значение ветви логарифма в базовой точке."
+    },
+    {
+      "split": "dev",
+      "id": "qa_17cb5cef084b",
+      "topic": "argument_principle",
+      "family_id": "argument_principle",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p073_b002"
+        ]
+      ],
+      "finding": "Известно N−P=2. Для z² имеем N=2,P=0, а для z³/(z−1/2) имеем N=3,P=1.",
+      "missing_information": "Не известно число полюсов с кратностями внутри круга."
+    },
+    {
+      "split": "dev",
+      "id": "qa_d022c32cdf23",
+      "topic": "rouche",
+      "family_id": "rouche",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p074_b001"
+        ]
+      ],
+      "finding": "c=0 даёт двойной нуль 0, c=−1/4 даёт ±1/2. Руше фиксирует число нулей, но не их расположение.",
+      "missing_information": "Не задана константа c, необходимая для определения расположения нулей."
+    },
+    {
+      "split": "dev",
+      "id": "qa_63a0a5c78a89",
+      "topic": "maximum_modulus",
+      "family_id": "maximum_modulus",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p076_b002"
+        ]
+      ],
+      "finding": "Для f=(1+z)/2 максимум 1 достигается только в z=1, а для f=(1−z)/2 — только в z=−1. Принцип максимума указывает на границу, но не выбирает конкретную точку.",
+      "missing_information": "Не заданы граничные значения, определяющие точку достижения максимума."
+    },
+    {
+      "split": "dev",
+      "id": "qa_69528736dc48",
+      "topic": "schwarz",
+      "family_id": "schwarz",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p077_b001"
+        ]
+      ],
+      "finding": "f=z/2 даёт 1/4, а f=z/2+z²/4 даёт 5/16. У второй |f(z)|<3/4 в круге и та же производная. Случай равенства Шварца |f′(0)|=1 здесь не выполнен.",
+      "missing_information": "Производная с модулем меньше 1 не определяет функцию; не заданы остальные данные о f."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c771f2358f20",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "reviewed_answer_texts": [
+        "f голоморфна в D.",
+        "Производные fₙ′ сходятся к f′ локально равномерно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p081_b001"
+        ]
+      ],
+      "finding": "Теорема Вейерштрасса сохраняет голоморфность и даёт сходимость производных на компактах. Равномерность на всей области и полиномиальность из гипотез не следуют.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_5e79e14b1675",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "reviewed_answer_texts": [
+        "fₙ→0 локально равномерно.",
+        "fₙ′→0 локально равномерно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p080_b002",
+          "p081_b001"
+        ]
+      ],
+      "finding": "На каждом |z|≤r<1 величина rⁿ стремится к нулю; производные также сходятся по Вейерштрассу. Supremum |z|ⁿ по всему кругу равен 1; точка 1 в область не входит.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_b6661c869891",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "reviewed_answer_texts": [
+        "f либо тождественно нулевая, либо нигде не обращается в нуль в D.",
+        "Если f не тождественно нулевая, то у неё нет нулей в D.",
+        "Если f имеет хотя бы один нуль в D, то f≡0."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p082_b001"
+        ]
+      ],
+      "finding": "Теорема Гурвица допускает тождественно нулевой предел; последовательность констант 1/n показывает необходимость этой альтернативы.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_df6a205bf9bd",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "reviewed_answer_texts": [
+        "Обе последовательности состоят из функций без нулей в круге.",
+        "fₙ локально равномерно сходится к тождественному нулю.",
+        "gₙ локально равномерно сходится к 1."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p082_b001"
+        ]
+      ],
+      "finding": "У 1/n нулей нет, у 1+z/n возможный нуль −n вне открытого круга. Пределы 0 и 1 реализуют две разрешённые Гурвицем альтернативы.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_f2d6af496450",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "reviewed_answer_texts": [
+        "На каждом компакте K⊂D существует общая для всех f∈F граница |f|.",
+        "Семейство производных также локально равномерно ограничено.",
+        "На каждом компакте семейство равностепенно непрерывно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p084_b002",
+          "p085_b001"
+        ]
+      ],
+      "finding": "Ограниченность на компактах эквивалентна определению; теоремы дают ограниченность производных и равностепенную непрерывность. Чередование разных констант опровергает обязательную сходимость целой последовательности.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_37f709fdea51",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "reviewed_answer_texts": [
+        "F локально равномерно ограничено.",
+        "G не ограничено равномерно даже на компакте {1/2}.",
+        "Производные семейства F локально равномерно ограничены."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p084_b002"
+        ]
+      ],
+      "finding": "У F общий модуль ≤1; теорема даёт локальные границы производных. У G в точке 1/2 значения n/2 неограниченны, поэтому голоморфности членов недостаточно.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_fe02d9b7c66c",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "reviewed_answer_texts": [
+        "ad−bc≠0.",
+        "Композиция двух таких преобразований снова дробно-линейна.",
+        "Обратное преобразование существует и дробно-линейно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p086_b002"
+        ]
+      ],
+      "finding": "Невырожденность задаётся ненулевым определителем; преобразования образуют группу. Производная (ad−bc)/(cz+d)² в регулярной конечной точке ненулевая.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_8283a1a87936",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "reviewed_answer_texts": [
+        "L₁∘L₂(z)=1/z+1.",
+        "L₂∘L₁(z)=1/(z+1).",
+        "Обе композиции — невырожденные дробно-линейные преобразования."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p086_b002"
+        ]
+      ],
+      "finding": "Подстановка даёт разные дроби; групповое свойство означает замкнутость и наличие обратных, а не коммутативность.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_951e55039a40",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "reviewed_answer_texts": [
+        "Оно сохраняется при одновременном дробно-линейном преобразовании всех четырёх точек в том же порядке.",
+        "Его вещественность эквивалентна расположению точек на одной обобщённой окружности."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p088_b001",
+          "p089_b002"
+        ]
+      ],
+      "finding": "Отношение инвариантно для фиксированного порядка. Критерий вещественности означает общую окружность, включая прямую, а не обязательно вещественную ось. Перестановки в общем случае меняют значение.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_2d5af7c0ab4e",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "reviewed_answer_texts": [
+        "Первая четвёрка лежит на одной обобщённой окружности.",
+        "Ангармоническое отношение второй четвёрки невещественно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p088_b001",
+          "p089_b002"
+        ]
+      ],
+      "finding": "Первая лежит на прямой. Для второй отношение (0−i)/(0−2), делённое на (1−i)/(1−2), равно (1−i)/4. Невещественный инвариант не может стать отношением четырёх вещественных точек.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_fccb4cf17b61",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "reviewed_answer_texts": [
+        "Каждый имеет вид e^{iθ}(z−a)/(1−conj(a)z), |a|<1, θ вещественно.",
+        "Параметр a является единственным нулём отображения в круге.",
+        "Если автоморфизм фиксирует 0, то он является вращением."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "finding": "Теорема классифицирует голоморфные однолистные отображения круга на себя. Нуль a единственен; при a=0 получается вращение. z² отображает круг на себя, но не однолистно.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_cdd01c99d42e",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "reviewed_answer_texts": [
+        "f — автоморфизм круга.",
+        "g отображает круг на круг, но не является автоморфизмом."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "finding": "−z является вращением. Для любого w в круге корни z²=w также внутри, но g(z)=g(−z), поэтому g не однолистна и не автоморфизм.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_3da941037718",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "reviewed_answer_texts": [
+        "Есть единая голоморфная функция на D, совпадающая с исходным элементом.",
+        "Это голоморфное продолжение на D единственно."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "finding": "Теорема о монодромии даёт единственное голоморфное продолжение при возможности продолжать вдоль всех путей в односвязной области. Одного пути недостаточно.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_9dcea275c8c4",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "reviewed_answer_texts": [
+        "Первый элемент продолжается голоморфно вдоль любого пути в D.",
+        "Второй элемент не допускает голоморфного продолжения вдоль пути, заканчивающегося в 1.",
+        "Возможность продолжать вдоль всех путей — существенная гипотеза теоремы о монодромии."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "finding": "Полином уже голоморфен на D. Рациональная функция имеет полюс в 1, поэтому гипотеза всех путей для неё нарушается несмотря на односвязность D.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c77c4d923575",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "reviewed_answer_texts": [
+        "f продолжается голоморфно на D.",
+        "Продолжение удовлетворяет f(z)=conj(f(conj z))."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "finding": "Теорема требует вещественных граничных значений и задаёт двойное сопряжение: аргумента и значения. Для мнимых значений нужна другая формула.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_967c283dc3b8",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "reviewed_answer_texts": [
+        "Для f выполняются условия принципа симметрии с вещественными граничными значениями.",
+        "g не удовлетворяет требованию вещественности на диаметре.",
+        "Обе функции всё же имеют аналитическое продолжение на весь круг."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "finding": "f имеет вещественные значения на диаметре. Константа i не имеет таких значений, однако сама продолжается как константа; достаточная гипотеза теоремы не является необходимостью любого продолжения.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_61c279164334",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "reviewed_answer_texts": [
+        "Существует голоморфная в D функция F с Re F=u.",
+        "Добавление к F чисто мнимой константы сохраняет её вещественную часть."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p119_b001"
+        ]
+      ],
+      "finding": "Теорема даёт существование голоморфной функции с заданной вещественной частью. Добавка ic сохраняет Re F, так что без нормировки единственности нет; пример Re z непостоянен.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_47b26bec16e9",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "reviewed_answer_texts": [
+        "Re F=Re G.",
+        "Im G−Im F=5.",
+        "F′=G′."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p119_b001"
+        ]
+      ],
+      "finding": "Прибавление чисто мнимой константы не меняет вещественную часть и производную, но меняет мнимую часть. Это опровергает единственность без нормировки.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_671cac88f411",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "reviewed_answer_texts": [
+        "P гармоничен внутри круга.",
+        "Неотрицательная плотность даёт P≥0.",
+        "P(z;1)=1."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p125_b001",
+          "p125_b002"
+        ]
+      ],
+      "finding": "Гармоничность, монотонность и нормировка следуют из свойств ядра. Одна интегрируемость не гарантирует непрерывных граничных значений повсюду; для сходимости к значению используются условия непрерывности плотности.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_43d04f425e4d",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "reviewed_answer_texts": [
+        "u₁(0)=u₂(0)=0.",
+        "u₁ и u₂ различны внутри круга.",
+        "Разные непрерывные граничные плотности в данном примере имеют одинаковое среднее."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p122_b002"
+        ]
+      ],
+      "finding": "Обе тригонометрические плотности имеют нулевое среднее; в центре значения совпадают, но в z=1/2 значения 1/2 и 0 различаются. Формула Пуассона использует все граничные данные, а не одно среднее.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_2840ccd17ccb",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "reviewed_answer_texts": [
+        "f(0)=1.",
+        "f′(0)=2.",
+        "Теорема Вейерштрасса разрешает предельный переход для производных в нуле."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p081_b001"
+        ]
+      ],
+      "finding": "Локальная равномерная сходимость даёт сходимость значений и производных. Пределы чисел равны соответственно 1 и 2.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_87b67526a604",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "reviewed_answer_texts": [
+        "f(z)=0 для всех z∈D.",
+        "f′(0)=0."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p081_b001",
+          "p082_b001"
+        ]
+      ],
+      "finding": "По сходимости f(0)=0, поэтому альтернатива Гурвица исключает ненулевой во всех точках предел: f≡0. Производная тождественного нуля равна нулю.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_1d88c859a62e",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "reviewed_answer_texts": [
+        "Sup по a,z∈K величины |fₐ(z)| равен 3/2.",
+        "Sup по a,z∈K величины |fₐ′(z)| равен 3."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p084_b002"
+        ]
+      ],
+      "finding": "|az|≤3/2 на K, равенство достигается при a=3,z=1/2; производная a имеет максимальный модуль 3. Семейство локально равномерно ограничено.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_dfd83ac673a2",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "reviewed_answer_texts": [
+        "L(0)=1.",
+        "L(∞)=2.",
+        "L(−1)=∞."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p086_b002",
+          "p087_b001"
+        ]
+      ],
+      "finding": "Подстановка и предел дают 1,2 и простой полюс при −1. В точке 1 значение 3/2, а определитель 2−1=1 ненулевой.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_5467229fd3b1",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "reviewed_answer_texts": [
+        "Отношение равно 4/3.",
+        "При одновременном переносе всех четырёх точек на 5 отношение останется 4/3."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p088_b001"
+        ]
+      ],
+      "finding": "Получаем (2/3)/(1/2)=4/3. Перенос является дробно-линейным преобразованием и сохраняет отношение при том же порядке точек.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_53717cb97434",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "reviewed_answer_texts": [
+        "T(1/2)=0.",
+        "T(0)=−1/2.",
+        "T′(0)=3/4."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "finding": "Это автоморфизм с a=1/2 и θ=0. Подстановка даёт нуль в a и −a в нуле; дифференцирование дроби даёт T′(0)=1−1/4=3/4.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_b2c75b2588b4",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "reviewed_answer_texts": [
+        "F(1/2)=2/3.",
+        "F′(0)=1/4."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "finding": "Рациональная функция голоморфна на всём круге и совпадает с исходным элементом. Единственность продолжения фиксирует её; подстановка и производная дают 2/3 и 1/4.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_7cf4f0ab36ff",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "reviewed_answer_texts": [
+        "f(−i)=2−3i.",
+        "f(i)+f(−i)=4."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "finding": "Принцип симметрии задаёт f(−i)=conj f(i). Поэтому мнимые части взаимно уничтожаются, а сумма равна 4.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_d6027778e656",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "reviewed_answer_texts": [
+        "v(x,y)=2xy.",
+        "v(1,1)=2.",
+        "F(z)=z²."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p011_b001",
+          "p119_b001"
+        ]
+      ],
+      "finding": "Re z²=x²−y², Im z²=2xy; эта пара удовлетворяет Коши–Риману. Разность двух голоморфных функций с одинаковой вещественной частью — чисто мнимая константа, которую нормировка делает нулевой.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_2e5cf4fc5096",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "reviewed_answer_texts": [
+        "u(0)=2.",
+        "u(1/2)=7/2.",
+        "u(i/2)=2."
+      ],
+      "reviewed_evidence_sets": [
+        [
+          "p122_b002",
+          "p120_b002"
+        ]
+      ],
+      "finding": "Гармоническая функция 2+3Re z имеет указанные граничные значения и по единственности решения совпадает с интегралом Пуассона. Её значения равны 2,7/2,2.",
+      "missing_information": ""
+    },
+    {
+      "split": "holdout",
+      "id": "qa_eaef4cd299ef",
+      "topic": "weierstrass_limit",
+      "family_id": "weierstrass_limit",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p080_b002",
+          "p081_b001"
+        ]
+      ],
+      "finding": "Последовательность fₙ≡0 имеет граничный предел 0, а fₙ(z)=zⁿ имеет граничный предел 1. Обе локально равномерно сходятся к 0 внутри; локальная сходимость не контролирует границу.",
+      "missing_information": "Не заданы сходимость на границе или иные ограничения граничных значений."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c153d8855385",
+      "topic": "hurwitz_nonvanishing",
+      "family_id": "hurwitz_nonvanishing",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p082_b001"
+        ]
+      ],
+      "finding": "Последовательность 1/n даёт тождественно нулевой предел, постоянная последовательность 1 даёт нигде не нулевой. Теорема устанавливает дизъюнкцию, но не выбирает одну альтернативу без других данных.",
+      "missing_information": "Нужны сведения, исключающие одну из двух альтернатив Гурвица."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_0c8115213f41",
+      "topic": "normal_family_bounds",
+      "family_id": "normal_family_bounds",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p084_b002",
+          "p085_b001"
+        ]
+      ],
+      "finding": "Постоянная последовательность из функции 1 и постоянная последовательность из функции −1 обе допустимы и имеют разные пределы. Ограниченность семейства не задаёт выбор последовательности.",
+      "missing_information": "Не сообщены выбранная последовательность или данные, определяющие её предел."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_c5b0bafcb281",
+      "topic": "mobius_group",
+      "family_id": "mobius_group",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p086_b002",
+          "p087_b001"
+        ]
+      ],
+      "finding": "Такие преобразования имеют вид L(z)=az с a≠0. L=z и L=2z удовлетворяют двум заданным значениям, но L(1) различны.",
+      "missing_information": "Не задано третье нормировочное значение или ненулевой масштаб a."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_24fafa91eabd",
+      "topic": "cross_ratio",
+      "family_id": "cross_ratio",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p088_b001"
+        ]
+      ],
+      "finding": "Нормировочное преобразование является тождественным, поэтому отношение равно z₁. При z₁=2 и z₁=3 получаются разные допустимые ответы.",
+      "missing_information": "Не задана четвёртая точка z₁."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_e8eb1be110c9",
+      "topic": "disk_automorphisms",
+      "family_id": "disk_automorphisms",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p095_b001"
+        ]
+      ],
+      "finding": "По классификации f(z)=e^{iθ}(z−1/2)/(1−z/2). При θ=0 значение в нуле −1/2, при θ=π оно 1/2.",
+      "missing_information": "Не задана фаза автоморфизма, например аргумент производной в его нуле."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_702d9791d33d",
+      "topic": "monodromy",
+      "family_id": "monodromy",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p104_b001"
+        ]
+      ],
+      "finding": "Элементы f≡1 и f=1+z оба удовлетворяют условиям и имеют разные значения 1 и 3/2. Единственность продолжения относится к фиксированному элементу, а не к единственному сообщённому значению.",
+      "missing_information": "Недостаточно данных об исходном голоморфном элементе; одно значение его не определяет."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_80b08e47e813",
+      "topic": "reflection",
+      "family_id": "reflection",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p105_b002"
+        ]
+      ],
+      "finding": "Функции f≡1 и f(z)=z имеют вещественные граничные значения, модуль 1 в i и разные значения 1 и −i в −i. Задание модуля не определяет сопряжённое комплексное значение.",
+      "missing_information": "Не задан аргумент или полное комплексное значение f(i)."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_9c399a5f7dc8",
+      "topic": "harmonic_conjugate",
+      "family_id": "harmonic_conjugate",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p119_b001"
+        ]
+      ],
+      "finding": "F=z и F=z+2i имеют одну и ту же вещественную часть x, но v(0,0)=0 и 2. Сопряжённая гармоническая функция задаётся с точностью до константы.",
+      "missing_information": "Не задана аддитивная константа мнимой части, например значение v в одной точке."
+    },
+    {
+      "split": "holdout",
+      "id": "qa_abfec3437bf6",
+      "topic": "poisson_integral",
+      "family_id": "poisson_integral",
+      "reviewed_answer_texts": [],
+      "reviewed_evidence_sets": [
+        [
+          "p122_b002"
+        ]
+      ],
+      "finding": "Для u≡2 среднее 2 и значение в 1/2 равно 2. Для u=2+2Re z граничное среднее тоже 2, но значение в 1/2 равно 3. Среднее фиксирует центр, а не остальные точки.",
+      "missing_information": "Не заданы непостоянные компоненты граничных данных, влияющие на значение вне центра."
+    }
+  ],
+  "revision_note": "Two dev wording clarifications after pilot; original pilot retained and both items excluded symmetrically from diagnostic selection. Holdout unchanged and not evaluated."
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hard_dev_01",
+    "split": "dev",
+    "tex": "\\frac{1+\\frac{a}{b}}{1-\\frac{c}{d}}"
+  },
+  {
+    "id": "hard_dev_02",
+    "split": "dev",
+    "tex": "\\sqrt{1+\\sqrt{1+x^2}}"
+  },
+  {
+    "id": "hard_dev_03",
+    "split": "dev",
+    "tex": "\\frac{\\sqrt{a^2+b^2}}{\\sqrt{c^2+d^2}}"
+  },
+  {
+    "id": "hard_dev_04",
+    "split": "dev",
+    "tex": "x^{n^2}+y_{k_j}"
+  },
+  {
+    "id": "hard_dev_05",
+    "split": "dev",
+    "tex": "\\int_{-\\infty}^{+\\infty}e^{-t^2}\\,dt"
+  },
+  {
+    "id": "hard_dev_06",
+    "split": "dev",
+    "tex": "\\sum_{k=1}^{N}\\frac{(-1)^k}{k^2}"
+  },
+  {
+    "id": "hard_dev_07",
+    "split": "dev",
+    "tex": "\\overline{z+w}=\\bar z+\\bar w"
+  },
+  {
+    "id": "hard_dev_08",
+    "split": "dev",
+    "tex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}"
+  },
+  {
+    "id": "hard_dev_09",
+    "split": "dev",
+    "tex": "\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}"
+  },
+  {
+    "id": "hard_dev_10",
+    "split": "dev",
+    "tex": "f(x)=\\begin{cases}x^2,&x\\geq0,\\\\-x,&x<0.\\end{cases}"
+  },
+  {
+    "id": "hard_dev_11",
+    "split": "dev",
+    "tex": "\\left|\\frac{1}{z}\\right|\\leq\\frac{1}{r}"
+  },
+  {
+    "id": "hard_dev_12",
+    "split": "dev",
+    "tex": "\\frac{a_n}{a_{n+1}}\\longrightarrow R"
+  },
+  {
+    "id": "hard_test_01",
+    "split": "test",
+    "tex": "\\sqrt[4]{1+u^2}"
+  },
+  {
+    "id": "hard_test_02",
+    "split": "test",
+    "tex": "\\frac{\\partial^3 f}{\\partial x^2\\partial y}"
+  },
+  {
+    "id": "hard_test_03",
+    "split": "test",
+    "tex": "\\prod_{j=2}^{n}(1+j^{-2})"
+  },
+  {
+    "id": "hard_test_04",
+    "split": "test",
+    "tex": "\\begin{pmatrix}u&v\\\\w&t\\end{pmatrix}"
+  },
+  {
+    "id": "hard_test_05",
+    "split": "test",
+    "tex": "a^{b^c}+d_{e_f}"
+  },
+  {
+    "id": "hard_test_06",
+    "split": "test",
+    "tex": "\\overline{u-v}+\\sqrt{1+t^2}"
+  }
+]

@@ -1,0 +1,1206 @@
+{
+  "source_cohort_sha256": "176b248ee57a68eaba4c6baecfcec81153b559372ea775241d007b11a643f986",
+  "cohort": {
+    "questions_sha256": "691a9d43af2ee8dd41f58b413f7df2d6d5c7c77f7d7ad1d0922d2afd6b74fa72",
+    "corpus_sha256": "909b7b32472dc641acbe69c59748815c8baa16c92df48bc3189cd3118230ffb8",
+    "gold_sha256": "405de3237269b68b4c3becf40ddd92f9041e765d1821228b2a437e26906c2df4",
+    "runtime_sha256": "2736d34fc095a55931306e6a809214b12763e115612497dfa4e4f61174101f01",
+    "normalizer_id": "protocol:bc0bf426a137dccb5b6c1ec5f9e576d97d2627e605c3bcfae2d80c815408ca6d",
+    "evaluation_protocol_sha256": "e67179514e095470b219a065b5b858762569be579ba4f71495c32d8301efe858"
+  },
+  "runs": [
+    {
+      "name": "holdout_no_context",
+      "n": 40,
+      "answer_accuracy": 0.55,
+      "automatic_Q": null,
+      "reviewed_Q": null,
+      "category_scores": {
+        "недостаточность данных": 0.5,
+        "применение": 0.48000000000000004,
+        "сопоставление": 0.4,
+        "условия": 0.32
+      },
+      "mean_citation_f1_all_questions": null,
+      "technical_errors": 16,
+      "technical_error_rate": 0.4,
+      "error_kinds": {
+        "output_cap": 16
+      },
+      "refusals": {
+        "correct_refusal": 5,
+        "correct_refusal_with_accepted_rationale": 5,
+        "answered_resolvable": 19,
+        "technical_fallback": 16
+      },
+      "final_context_complete_rate": null,
+      "final_context_mean_source_recall": null,
+      "coverage_denominator": 0,
+      "error_details": [
+        {
+          "id": "qa_0c8115213f41",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_1d88c859a62e",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_24fafa91eabd",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2840ccd17ccb",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2d5af7c0ab4e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2e5cf4fc5096",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_37f709fdea51",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_3da941037718",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_43d04f425e4d",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_47b26bec16e9",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_53717cb97434",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5467229fd3b1",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5e79e14b1675",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_61c279164334",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_671cac88f411",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_702d9791d33d",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_7cf4f0ab36ff",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_80b08e47e813",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_8283a1a87936",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_87b67526a604",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_951e55039a40",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_967c283dc3b8",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9c399a5f7dc8",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9dcea275c8c4",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_abfec3437bf6",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b2c75b2588b4",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b6661c869891",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c153d8855385",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c5b0bafcb281",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c771f2358f20",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c77c4d923575",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_cdd01c99d42e",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_d6027778e656",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_df6a205bf9bd",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_dfd83ac673a2",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_e8eb1be110c9",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_eaef4cd299ef",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_f2d6af496450",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fccb4cf17b61",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fe02d9b7c66c",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        }
+      ],
+      "mean_input_tokens": 290.35,
+      "mean_output_tokens": 3156.225,
+      "mean_llm_calls": 1,
+      "mean_cost": 13171.25,
+      "median_latency_ms": 62859.5,
+      "usage_verified": true
+    },
+    {
+      "name": "holdout_bm25",
+      "n": 40,
+      "answer_accuracy": 0.25,
+      "automatic_Q": 0.235,
+      "reviewed_Q": 0.235,
+      "category_scores": {
+        "недостаточность данных": 0.1,
+        "применение": 0.2733333333333333,
+        "сопоставление": 0.0,
+        "условия": 0.5666666666666667
+      },
+      "mean_citation_f1_all_questions": 0.4,
+      "technical_errors": 30,
+      "technical_error_rate": 0.75,
+      "error_kinds": {
+        "output_cap": 28,
+        "citation_schema": 1,
+        "json_syntax": 1
+      },
+      "refusals": {
+        "correct_refusal": 1,
+        "correct_refusal_with_accepted_rationale": 1,
+        "technical_fallback": 30,
+        "answered_resolvable": 9
+      },
+      "final_context_complete_rate": 0.5333333333333333,
+      "final_context_mean_source_recall": 0.6,
+      "coverage_denominator": 30,
+      "error_details": [
+        {
+          "id": "qa_0c8115213f41",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_1d88c859a62e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_24fafa91eabd",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2840ccd17ccb",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2d5af7c0ab4e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2e5cf4fc5096",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_37f709fdea51",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_3da941037718",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "other"
+        },
+        {
+          "id": "qa_43d04f425e4d",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_47b26bec16e9",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_53717cb97434",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5467229fd3b1",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5e79e14b1675",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_61c279164334",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_671cac88f411",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_702d9791d33d",
+          "error_kind": "json_syntax",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_7cf4f0ab36ff",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_80b08e47e813",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_8283a1a87936",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_87b67526a604",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_951e55039a40",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_967c283dc3b8",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9c399a5f7dc8",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9dcea275c8c4",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_abfec3437bf6",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b2c75b2588b4",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b6661c869891",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c153d8855385",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c5b0bafcb281",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c771f2358f20",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c77c4d923575",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_cdd01c99d42e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_d6027778e656",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_df6a205bf9bd",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_dfd83ac673a2",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_e8eb1be110c9",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_eaef4cd299ef",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_f2d6af496450",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fccb4cf17b61",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fe02d9b7c66c",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        }
+      ],
+      "mean_input_tokens": 2966.15,
+      "mean_output_tokens": 3659.925,
+      "mean_llm_calls": 1,
+      "mean_cost": 17861.85,
+      "median_latency_ms": 71704.5,
+      "usage_verified": true
+    },
+    {
+      "name": "holdout_reference",
+      "n": 40,
+      "answer_accuracy": 0.5,
+      "automatic_Q": 0.464,
+      "reviewed_Q": 0.464,
+      "category_scores": {
+        "недостаточность данных": 0.3,
+        "применение": 0.36333333333333334,
+        "сопоставление": 0.25333333333333335,
+        "условия": 0.9393333333333334
+      },
+      "mean_citation_f1_all_questions": 0.445,
+      "technical_errors": 11,
+      "technical_error_rate": 0.275,
+      "error_kinds": {
+        "output_cap": 1,
+        "json_syntax": 1,
+        "citation_schema": 6,
+        "abstain_schema": 2,
+        "control_character": 1
+      },
+      "refusals": {
+        "missed_refusal": 3,
+        "incorrect_refusal": 2,
+        "technical_fallback": 11,
+        "answered_resolvable": 21,
+        "correct_refusal": 3,
+        "correct_refusal_with_accepted_rationale": 3
+      },
+      "final_context_complete_rate": 0.4,
+      "final_context_mean_source_recall": 0.5,
+      "coverage_denominator": 30,
+      "error_details": [
+        {
+          "id": "qa_0c8115213f41",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_1d88c859a62e",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_24fafa91eabd",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2840ccd17ccb",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2d5af7c0ab4e",
+          "error_kind": "json_syntax",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2e5cf4fc5096",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_37f709fdea51",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_3da941037718",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_43d04f425e4d",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_47b26bec16e9",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_53717cb97434",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5467229fd3b1",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_5e79e14b1675",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_61c279164334",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_671cac88f411",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_702d9791d33d",
+          "error_kind": "abstain_schema",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_7cf4f0ab36ff",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_80b08e47e813",
+          "error_kind": "abstain_schema",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_8283a1a87936",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_87b67526a604",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_951e55039a40",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_967c283dc3b8",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9c399a5f7dc8",
+          "error_kind": "control_character",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9dcea275c8c4",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_abfec3437bf6",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b2c75b2588b4",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b6661c869891",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c153d8855385",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c5b0bafcb281",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c771f2358f20",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c77c4d923575",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_cdd01c99d42e",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_d6027778e656",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_df6a205bf9bd",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_dfd83ac673a2",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_e8eb1be110c9",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_eaef4cd299ef",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_f2d6af496450",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fccb4cf17b61",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fe02d9b7c66c",
+          "error_kind": null,
+          "citation_error_subtype": null
+        }
+      ],
+      "mean_input_tokens": 6133.925,
+      "mean_output_tokens": 2337.25,
+      "mean_llm_calls": 1.975,
+      "mean_cost": 15988.525,
+      "median_latency_ms": 41423.5,
+      "usage_verified": true
+    },
+    {
+      "name": "holdout_without_prefill",
+      "n": 40,
+      "answer_accuracy": 0.1,
+      "automatic_Q": 0.09333333333333334,
+      "reviewed_Q": 0.09333333333333334,
+      "category_scores": {
+        "недостаточность данных": 0.1,
+        "применение": 0.08,
+        "сопоставление": 0.0,
+        "условия": 0.19333333333333333
+      },
+      "mean_citation_f1_all_questions": 0.2916666666666667,
+      "technical_errors": 36,
+      "technical_error_rate": 0.9,
+      "error_kinds": {
+        "output_cap": 36
+      },
+      "refusals": {
+        "technical_fallback": 36,
+        "answered_resolvable": 3,
+        "correct_refusal": 1,
+        "correct_refusal_with_accepted_rationale": 1
+      },
+      "final_context_complete_rate": 0.5333333333333333,
+      "final_context_mean_source_recall": 0.6,
+      "coverage_denominator": 30,
+      "error_details": [
+        {
+          "id": "qa_0c8115213f41",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_1d88c859a62e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_24fafa91eabd",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2840ccd17ccb",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2d5af7c0ab4e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2e5cf4fc5096",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_37f709fdea51",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_3da941037718",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_43d04f425e4d",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_47b26bec16e9",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_53717cb97434",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5467229fd3b1",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5e79e14b1675",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_61c279164334",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_671cac88f411",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_702d9791d33d",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_7cf4f0ab36ff",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_80b08e47e813",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_8283a1a87936",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_87b67526a604",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_951e55039a40",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_967c283dc3b8",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9c399a5f7dc8",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9dcea275c8c4",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_abfec3437bf6",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b2c75b2588b4",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b6661c869891",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c153d8855385",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c5b0bafcb281",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c771f2358f20",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c77c4d923575",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_cdd01c99d42e",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_d6027778e656",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_df6a205bf9bd",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_dfd83ac673a2",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_e8eb1be110c9",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_eaef4cd299ef",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_f2d6af496450",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fccb4cf17b61",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fe02d9b7c66c",
+          "error_kind": "output_cap",
+          "citation_error_subtype": null
+        }
+      ],
+      "mean_input_tokens": 3152.475,
+      "mean_output_tokens": 4011.925,
+      "mean_llm_calls": 1,
+      "mean_cost": 19456.175,
+      "median_latency_ms": 71955.5,
+      "usage_verified": true
+    },
+    {
+      "name": "holdout_without_neighbors",
+      "n": 40,
+      "answer_accuracy": 0.625,
+      "automatic_Q": 0.5833333333333334,
+      "reviewed_Q": 0.5358333333333334,
+      "category_scores": {
+        "недостаточность данных": 0.7,
+        "применение": 0.44,
+        "сопоставление": 0.26,
+        "условия": 0.7433333333333334
+      },
+      "mean_citation_f1_all_questions": 0.5166666666666667,
+      "technical_errors": 10,
+      "technical_error_rate": 0.25,
+      "error_kinds": {
+        "answer_schema": 3,
+        "json_syntax": 1,
+        "citation_schema": 4,
+        "abstain_schema": 1,
+        "control_character": 1
+      },
+      "refusals": {
+        "correct_refusal": 8,
+        "correct_refusal_with_accepted_rationale": 7,
+        "technical_fallback": 10,
+        "answered_resolvable": 20,
+        "incorrect_refusal": 2
+      },
+      "final_context_complete_rate": 0.36666666666666664,
+      "final_context_mean_source_recall": 0.4666666666666667,
+      "coverage_denominator": 30,
+      "error_details": [
+        {
+          "id": "qa_0c8115213f41",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_1d88c859a62e",
+          "error_kind": "answer_schema",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_24fafa91eabd",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2840ccd17ccb",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2d5af7c0ab4e",
+          "error_kind": "json_syntax",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_2e5cf4fc5096",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_37f709fdea51",
+          "error_kind": "answer_schema",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_3da941037718",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_43d04f425e4d",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_47b26bec16e9",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_53717cb97434",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_5467229fd3b1",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_5e79e14b1675",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_61c279164334",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_671cac88f411",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_702d9791d33d",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_7cf4f0ab36ff",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_80b08e47e813",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_8283a1a87936",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_87b67526a604",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_951e55039a40",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_967c283dc3b8",
+          "error_kind": "answer_schema",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9c399a5f7dc8",
+          "error_kind": "abstain_schema",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_9dcea275c8c4",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_abfec3437bf6",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b2c75b2588b4",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_b6661c869891",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c153d8855385",
+          "error_kind": "control_character",
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c5b0bafcb281",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c771f2358f20",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_c77c4d923575",
+          "error_kind": "citation_schema",
+          "citation_error_subtype": "unknown"
+        },
+        {
+          "id": "qa_cdd01c99d42e",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_d6027778e656",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_df6a205bf9bd",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_dfd83ac673a2",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_e8eb1be110c9",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_eaef4cd299ef",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_f2d6af496450",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fccb4cf17b61",
+          "error_kind": null,
+          "citation_error_subtype": null
+        },
+        {
+          "id": "qa_fe02d9b7c66c",
+          "error_kind": null,
+          "citation_error_subtype": null
+        }
+      ],
+      "mean_input_tokens": 5644.55,
+      "mean_output_tokens": 2062.475,
+      "mean_llm_calls": 1.9,
+      "mean_cost": 14380.85,
+      "median_latency_ms": 40247.5,
+      "usage_verified": true
+    }
+  ]
+}
